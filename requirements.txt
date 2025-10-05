@@ -1,0 +1,8 @@
+websockets
+opencv-python-headless
+numpy==1.26.4
+dronekit
+pymavlink
+pyrealsense2
+future
+pyserial

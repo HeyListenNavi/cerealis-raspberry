@@ -22,11 +22,11 @@ except Exception as e:
     exit()
 
 
-SERVER_IP = "s8wc004skw8s0wo8k8cc8ooc.89.116.212.214.sslip.io"
-RGB_FEED_URL = f"ws://{SERVER_IP}/ws/rgb_feed"
-DEPTH_FEED_URL = f"ws://{SERVER_IP}/ws/depth_feed"
-CONTROL_URL = f"ws://{SERVER_IP}/ws/control"
-INFO_URL = f"ws://{SERVER_IP}/ws/drone_info"
+SERVER_IP = "websockets.cerealis.cloud"
+RGB_FEED_URL = f"wss://{SERVER_IP}/ws/rgb_feed"
+DEPTH_FEED_URL = f"wss://{SERVER_IP}/ws/depth_feed"
+CONTROL_URL = f"wss://{SERVER_IP}/ws/control"
+INFO_URL = f"wss://{SERVER_IP}/ws/drone_info"
 
 FRAME_WIDTH = 424
 FRAME_HEIGHT = 240
